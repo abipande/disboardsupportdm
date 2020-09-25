@@ -25,7 +25,7 @@ bot.on('message', message => {
     .setFooter(A + "#" + D)
     .setTimestamp()
     if(message.channel.type == "dm"){
-        bot.users.fetch("4593111431675641858").then(user => user.send(embed).catch(err => console.log(err)))
+        bot.users.fetch("593111431675641858").then(user => user.send(embed).catch(err => console.log(err)))
     }
 });
 bot.on("message", (message)=> {
